@@ -1,0 +1,22 @@
+.footer {
+    bottom: 0;
+    background-color: var(--secondary-background);
+    padding: 1px 0;
+}
+.center-footer {
+    text-align: center;
+    padding: 9px 0;
+    width: 100%;
+}
+.space-footer {
+    padding-right: 0.7rem;
+}
+
+/*------------------------------*/
+
+/* DESKTOP */
+@media only screen and (min-width: 601px) {
+    .footer {
+        position: fixed;
+    }
+}

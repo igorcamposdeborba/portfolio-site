@@ -1,0 +1,49 @@
+.main {
+    margin: 80px 0 0 0;
+}
+p {
+    margin-bottom: 6pt;
+}
+
+strong {
+    font-weight: var(--bold-text);
+    font-size: 12.5pt;
+}
+
+.group-logos {
+    margin: 5px 5px 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.github-logo {
+    max-width: 64px;
+    margin: 0 10px;
+}
+.github-logo:hover {
+    opacity: 0.75;
+}
+
+.linkedin-logo {
+    max-width: 30px;
+    margin: 0 10px;
+}
+.linkedin-logo:hover {
+    opacity: 0.80;
+}   
+
+/*------------------------------*/
+
+/* MOBILE */
+@media only screen and (max-width: 600px) {
+    p {
+        margin-bottom: 14pt;
+    }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 601px) {
+    main {
+        text-align: center;
+    }
+}

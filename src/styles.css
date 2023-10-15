@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Roboto:wght@300;400;700&display=swap');
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+html, body { 
+  height: 100%; 
+  scroll-behavior: smooth;
+}
+* {
+  list-style: none;
+}
+body { 
+  margin: 0; 
+  font-family: "Roboto", sans-serif, "Helvetica Neue";
+  color: var(--primary-color);
+  background-color: var(--primary-background);
+}
+p, span, h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+}
+:root {
+    /* COLORS: text and background*/
+    --primary-background: #222222; 
+    --secondary-background: #0D1117;
+    --primary-color: #FFFFFF;
+    --secondary-color: #D6D6D6;
+    --highlight: #F7D443;
+
+    /* TITLE size */
+    --light-title: 500;
+    --regular-title: 500;
+    --semibold-title: 600;
+    --bold-title: 700;
+    --regular-title-italic: 500;
+    
+    /* TEXT size */
+    --light-text: 300;
+    --regular-text: 400;
+    --bold-text: 700;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway";
+}
+
+h1 {
+  padding-top: 1rem;
+  padding-bottom: 0.3rem;
+}
+
+h2 {
+  padding-top: 2.7rem;
+  padding-bottom: 0.38rem;
+}
+
+p {
+  font-family: "Roboto";
+  font-size: 12pt;
+}
+
+small {
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+.highlight {
+  color: var(--highlight);
+}
+
+@media only screen and (max-width: 600px) {
+  body { 
+    font-size: 1.1rem;
+  }
+}
